@@ -11,7 +11,7 @@ const authenticate = async (req, res, next) => {
     if (bearer !== "Bearer" ) {
         console.log('No token!');
         next(HttpError(401));
-        return; // !!!!! ERROR in console
+        return; // !!!!!if not return - ERROR in console
     }
     try {
         const {id} = jwt.verify(token, SECRET_KEY);
