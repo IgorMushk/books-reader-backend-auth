@@ -33,6 +33,11 @@ const bookSchema = new Schema({
         //match: /^\d{2}-\d{2}-\d{4}$/,
         match: dateRegexp,
         required: true,
+    },
+    owner: {
+        type: Schema.Types.ObjectId,
+        ref: "user",
+        required: true,
     }
 
 }, {versionKey: false, timestamps: true});

@@ -7,10 +7,8 @@ const { HttpError, ctrlWrapper } = require("../helpers");
 
 
 const getAll = async (req, res) => {
-    //const result = await books.getAll();
-    // const result = await Book.find();
-    //const result = await Book.find({title: "Pro Git"});
-    const result = await Book.find({}, "-createdAt -updatedAt");
+    const {_id: owner} = req.user;
+    const result = await Book.find({owner}, "-createdAt -updatedAt");
     res.json(result);
 }
 
@@ -26,11 +24,9 @@ const getById = async (req, res) => {
 }
 
 const add = async (req, res) => {
-    //const result = await books.add(req.body);
-
-    //const {date} = req.body; // YYYY-MM-DD - joi
-    //const formatDate = // DD-MM-YYYY - mongoose
-    const result = await Book.create(req.body);
+    //console.log(req.user);
+    const {_id: owner} = req.user;
+    const result = await Book.create({...req.body, owner});
     res.status(201).json(result);
 }
 
