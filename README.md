@@ -77,3 +77,14 @@ Header > Authorization Bearer "token"
 #### POST http://localhost:3000/api/auth/logout
 
 Header > Authorization Bearer "token"   
+
+
+![Screenshoot-1](./assets/screenshot-0post-reg.jpg)
+![Screenshoot-2](./assets/screenshot-1post-login.jpg)
+![Screenshoot-3](./assets/screenshot-2-2post.jpg)
+![Screenshoot-4](./assets/screenshot-2-1post.jpg)
+![Screenshoot-5](./assets/screenshot-3-2get.jpg)
+![Screenshoot-6](./assets/screenshot-3-1get.jpg)
+![Screenshoot-7](./assets/schema-model-collection.jpg)
+
+
