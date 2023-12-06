@@ -11,10 +11,10 @@
 
 POST http://localhost:3000/api/auth/login  
 
-{
-    "email": "vasyl@gmail.com",
-    "password": "123456"
-}
+{  
+    "email": "vasyl@gmail.com",   
+    "password": "123456"  
+}  
 
 
 ### Mod04-2
@@ -74,6 +74,6 @@ Header > Authorization Bearer "token"
     "name": "Igor2"  
 }  
 
-#### http://localhost:3000/api/auth/logout
+#### POST http://localhost:3000/api/auth/logout
 
 Header > Authorization Bearer "token"   
