@@ -9,7 +9,7 @@
     "password": "123456"  
 }
 
-POST http://localhost:3000/api/auth/login  
+#### POST http://localhost:3000/api/auth/login  
 
 {  
     "email": "vasyl@gmail.com",   
