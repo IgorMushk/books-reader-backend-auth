@@ -85,6 +85,6 @@ Header > Authorization Bearer "token"
 ![Screenshoot-4](./assets/screenshot-2-1post.jpg)
 ![Screenshoot-5](./assets/screenshot-3-2get.jpg)
 ![Screenshoot-6](./assets/screenshot-3-1get.jpg)
-![Screenshoot-7](./frontend-backend-requests-with-token.jpg)
+![Screenshoot-7](./assets/frontend-backend-requests-with-token.jpg)
 
 
