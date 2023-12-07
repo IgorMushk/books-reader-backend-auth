@@ -64,7 +64,6 @@ Header > Authorization Bearer "token"
 
 Header > Authorization Bearer "token"  
 
-
 #### GET http://localhost:3000/api/auth/current
 
 Header > Authorization Bearer "token"  
